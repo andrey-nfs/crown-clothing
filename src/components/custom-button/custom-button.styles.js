@@ -38,7 +38,7 @@ const getButtonStyles = props => {
   if (props.isGoogleSignIn) return googleSignInStyles;
   if (props.inverted) return invertedButtonStyles;
   return buttonStyles;
-}
+};
 
 const CustomButtonContainer = styled.button`
   min-width: 165px;
